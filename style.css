@@ -1,4 +1,11 @@
-body{
-    background-color: #EBECEE;
+:root {
+    --cor-de-fundo: #EBECEE;
+}
+
+body {
+    background-color: var(#EBECEE);
+}
+h1 {
+    background-color: white;
 }
 
