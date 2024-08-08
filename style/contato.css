@@ -1,0 +1,20 @@
+.contato{
+
+}
+
+
+.contato_titulo{
+
+}
+
+
+.contato_texto{
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.contato_titulo,
+.contato_texto {
+    background: var(--azul-degrade);
+    .webkit
+}    
