@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    
 }
 
 .cabecalho__menu-hamburguer{
@@ -26,7 +25,7 @@
 
 .lista-menu{
     display: none;
-    position: absolute;
+    position:absolute;
     top: 100%;
     padding: 1em;
     background-color: var(--branco);
@@ -36,18 +35,19 @@
     display: block;
 }
 
-.container__botao{
-    display: none;
-}
-
 .lista-menu__titulo{
     color: var(--laranja);
-    fron-weight: 700;
+    padding: 1em;
+    font-weight: 700;
 }
 
 .lista-menu__item{
-padding: 1em;
+    padding: 1em;
     font-weight: 700;
+}
+
+.container__botao{
+    display: none;
 }
 
 .lista-menu__link {
